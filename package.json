@@ -1,0 +1,32 @@
+{
+  "name": "sinergis",
+  "version": "0.0.1",
+  "description": "Basic API server infrastructure",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --harmony .",
+    "test": "npm test"
+  },
+  "keywords": [
+    "api",
+    "server"
+  ],
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "~0.5.0",
+    "debug": "~0.7.4",
+    "koa-route": "~1.0.2",
+    "co-views": "~0.2.0",
+    "koa-compose": "~2.2.0",
+    "swig": "~1.3.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "supertest": "~0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diorahman/sinergis"
+  }
+}
